@@ -57,14 +57,14 @@ mkdir /l/users/yahia.dalbah/zipfiles/
 python /home/yahia.dalbah/RODNet_testing/tools/test.py \
 --config /home/yahia.dalbah/RODNet_testing/configs/Axial.py \
 --data_dir /l/users/yahia.dalbah/Pickle \
---checkpoint /l/users/yahia.dalbah/store/Axial-20230227-100152/epoch_27_final.pkl \
+--checkpoint /l/users/yahia.dalbah/radarformer/maxvit2_3579-20221203-210509/epoch_19_final.pkl \
 --res_dir /l/users/yahia.dalbah/results/test55/ ;
 
 
 
 
 python /home/yahia.dalbah/RODNet_testing/tools/format_transform/convert_rodnet_to_rod2021-slurm1.py \
---result_dir /l/users/yahia.dalbah/results/test55/Axial-20230227-100152/ \
+--result_dir /l/users/yahia.dalbah/results/test55/maxvit2_3579-20221203-210509/ \
 --final_dir /l/users/yahia.dalbah/results/output_final/test55 ;
 
 
