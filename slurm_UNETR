@@ -42,7 +42,7 @@ python /home/yahia.dalbah/RODNet_testing/tools/prepare_dataset/prepare_data.py \
 
 
 python /home/yahia.dalbah/RODNet_testing/tools/train.py \
---config /home/yahia.dalbah/RODNet_testing/configs/MaxVIT2_3579_76-7%.py \
+--config /home/yahia.dalbah/RODNet_testing/configs/MaxVIT2.py \
 --data_dir /tmp/yahia.dalbah/Pickle0 \
 --resume_from /l/users/yahia.dalbah/store/Axial-202335530226-110550/epoch_13_final.pkl \
 --log_dir /l/users/yahia.dalbah/store/ \

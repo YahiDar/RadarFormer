@@ -29,7 +29,7 @@ python ./RODNet_testing/tools/prepare_dataset/prepare_data.py \
 
 
 python ./RODNet_testing/tools/train.py \
---config ./RODNet_testing/configs/MaXViT.py \
+--config ./RODNet_testing/configs/MaxVIT2.py \
 --data_dir ./Pickle0 \
 --resume_from --resume option if there is a checkpoint-- \
 --log_dir --output_directory-- \

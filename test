@@ -1,5 +1,5 @@
 python ./RODNet_testing/tools/test.py \
---config ./RODNet_testing/configs/MaXViT.py \
+--config ./RODNet_testing/configs/MaxVIT2.py \
 --data_dir --data_dir-- \
 --checkpoint --checkpoint_dir-- \
 --res_dir --res_dir-- ;

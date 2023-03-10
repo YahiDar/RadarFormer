@@ -55,7 +55,7 @@ mkdir /l/users/yahia.dalbah/zipfiles/
 
 
 python /home/yahia.dalbah/RODNet_testing/tools/test.py \
---config /home/yahia.dalbah/RODNet_testing/configs/Axial.py \
+--config /home/yahia.dalbah/RODNet_testing/configs/MaxVIT2.py \
 --data_dir /l/users/yahia.dalbah/Pickle \
 --checkpoint /l/users/yahia.dalbah/radarformer/maxvit2_3579-20221203-210509/epoch_19_final.pkl \
 --res_dir /l/users/yahia.dalbah/results/test55/ ;
