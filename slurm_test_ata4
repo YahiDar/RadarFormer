@@ -47,7 +47,7 @@ hostname
 rm -rf /l/users/yahia.dalbah/results/test55
 mkdir /l/users/yahia.dalbah/results/test55
 
-
+2
 #rm -rf /l/users/yahia.dalbah/results/output_final
 mkdir /l/users/yahia.dalbah/results/output_final
 mkdir /l/users/yahia.dalbah/zipfiles/
