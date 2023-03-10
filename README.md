@@ -1,7 +1,11 @@
 # RadarFormer: Lightweight and Accurate Real-Time Radar Object Detection Model
 
-This is the official implementation of the RadarFormer paper, based on the RODNet(https://github.com/yizhou-wang/RODNet#rodnet-radar-object-detection-network) implementation.
-Please do cite our work if this repository helps your researcch.
+This is the official implementation of the RadarFormer paper, based on the [RODNet](https://github.com/yizhou-wang/RODNet#rodnet-radar-object-detection-network) implementation.
+Please do cite our work if this repository helps your research.
+
+```
+placeholder
+```
 
 This code is heavily reliant on the RODNet repository, please do visit and cite their works as well if you are interested in this work.
 ```
@@ -45,7 +49,7 @@ conda activate RadarFormer
 NOTE: This environment does NOT include the bare minimum required libraries, and includes libraries used in further research that will be published soon. A link to that research will be provided.
 
 
-Install `cruw-devkit` package, RODNet installation, and download and prepare the CRUW dataset from the CRUW dataset authors: RODNet(https://github.com/yizhou-wang/RODNet#rodnet-radar-object-detection-network)
+Install `cruw-devkit` package, RODNet installation, and download and prepare the CRUW dataset from the CRUW dataset authors: [RODNet](https://github.com/yizhou-wang/RODNet#rodnet-radar-object-detection-network)
 
 
 ## Prepare the dataset
@@ -62,6 +66,7 @@ python tools/train.py --config configs/<CONFIG_FILE> \
         --log_dir checkpoints/
 ```
 
+You might need to change line 152 in the ```.\rodnet\datasets\loaders\CRDataset.py``` file based on data directory.
 
 ## Testing models
 
@@ -73,6 +78,8 @@ python tools/test.py --config configs/<CONFIG_FILE> \
         --checkpoint <CHECKPOINT_PATH> \
         --res_dir results/
 ```
+
+You might need to change the base_root/data_root/anno_root paths in the config files.
 
 IMPORTANT NOTE:
 

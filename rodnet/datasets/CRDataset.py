@@ -149,7 +149,7 @@ class CRDataset(data.Dataset):
                     radar_npy_win = np.zeros((self.win_size, ramap_rsize, ramap_asize, 2), dtype=np.float32)
                     for idx, frameid in enumerate(
                             range(data_id, data_id + self.win_size * self.step, self.step)):
-                        radar_path = os.path.join('/tmp/yahia.dalbah/Pickletest/test',radar_paths[frameid][chirp_id])
+                        radar_path = os.path.join('./Pickletest/test',radar_paths[frameid][chirp_id])
                         radar_npy_win[idx, :, :, :] = np.load(radar_path)
                         #data_dict['image_paths'].append(image_paths[frameid])
                         if image_paths is not None:

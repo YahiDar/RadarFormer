@@ -1,8 +1,8 @@
 dataset_cfg = dict(
     dataset_name='ROD2021',
-    base_root="/tmp/yahia.dalbah/Pickletest",
-    data_root="/tmp/yahia.dalbah/Pickletest",
-    anno_root="/tmp/yahia.dalbah/Pickletest",
+    base_root="./Pickletest",
+    data_root="./Pickletest",
+    anno_root="./Pickletest",
     anno_ext='.txt',
     train=dict(
         subdir='train',
