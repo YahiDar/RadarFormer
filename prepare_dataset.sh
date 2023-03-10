@@ -27,11 +27,3 @@ python ./RadarFormer/tools/prepare_dataset/prepare_data.py \
 --config ./RadarFormer/configs/config_rodnet_hg1v2_win16_mnet.py \
 --data_root ./data_root0/ --split train,test --out_data_dir ./Pickle0
 
-
-python ./RadarFormer/tools/train.py \
---config ./RadarFormer/configs/MaxVIT2.py \
---data_dir ./Pickle0 \
---resume_from --resume option if there is a checkpoint-- \
---log_dir --output_directory-- \
---vis_train 0
-
