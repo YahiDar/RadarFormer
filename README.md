@@ -89,6 +89,6 @@ To do so, you have to export the annotations (output of the test.py file) using 
 
 The ```test.sh``` file automates the process.
 
-The pretrained MaXViT model weights can be calculated from:
+The pretrained MaXViT model weights can be downloaded from:
 
 https://mbzuaiac-my.sharepoint.com/:u:/g/personal/yahia_dalbah_mbzuai_ac_ae/EZ5RVt7nrK5OgozBs200hDQBIZqsGdf2bkJrwEE2jQ4KOw?e=cjf0qo
