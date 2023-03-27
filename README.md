@@ -46,10 +46,28 @@ conda env create -n RadarFormer --file env.yml
 conda activate RadarFormer
 ```
 
+After that, clone the ```cruw-devkit``` repository into the same directory and install it using
+
+```commandline
+git clone https://github.com/yizhou-wang/cruw-devkit
+cd cruw-devkit
+pip install .
+cd ..
+```
+
+Then setup the RODNet package by:
+```commandline
+pip install -e .
+```
+
+To run the MaXViT based model, you need to install the code from the [MaxViT Repository](https://github.com/ChristophReich1996/MaxViT) through:
+
+```commandline
+pip install git+https://github.com/ChristophReich1996/MaxViT
+```
+
 NOTE: This environment does NOT include the bare minimum required libraries, and includes libraries used in further research that will be published soon. A link to that research will be provided.
 
-
-Install `cruw-devkit` package, RODNet installation, and download and prepare the CRUW dataset from the CRUW dataset authors: [RODNet](https://github.com/yizhou-wang/RODNet#rodnet-radar-object-detection-network)
 
 
 ## Prepare the dataset
