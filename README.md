@@ -14,7 +14,7 @@ Please do cite our work if this repository helps your research.
 }
 ```
 
-This code is heavily reliant on the [RODNet](https://github.com/yizhou-wang/RODNet) repository, please do visit and cite their works as well if you are interested in this work.
+This code is heavily reliant on the [RODNet](https://github.com/yizhou-wang/RODNet) repository.
 
 
 ## Installation
