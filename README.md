@@ -14,29 +14,7 @@ Please do cite our work if this repository helps your research.
 }
 ```
 
-This code is heavily reliant on the RODNet repository, please do visit and cite their works as well if you are interested in this work.
-```
-@inproceedings{wang2021rodnet,
-  author={Wang, Yizhou and Jiang, Zhongyu and Gao, Xiangyu and Hwang, Jenq-Neng and Xing, Guanbin and Liu, Hui},
-  title={RODNet: Radar Object Detection Using Cross-Modal Supervision},
-  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  month={January},
-  year={2021},
-  pages={504-513}
-}
-```
-```
-@article{wang2021rodnet,
-  title={RODNet: A Real-Time Radar Object Detection Network Cross-Supervised by Camera-Radar Fused Object 3D Localization},
-  author={Wang, Yizhou and Jiang, Zhongyu and Li, Yudong and Hwang, Jenq-Neng and Xing, Guanbin and Liu, Hui},
-  journal={IEEE Journal of Selected Topics in Signal Processing},
-  volume={15},
-  number={4},
-  pages={954--967},
-  year={2021},
-  publisher={IEEE}
-}
-```
+This code is heavily reliant on the [RODNet](https://github.com/yizhou-wang/RODNet) repository, please do visit and cite their works as well if you are interested in this work.
 
 
 ## Installation
