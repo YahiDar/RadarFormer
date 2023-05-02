@@ -4,14 +4,22 @@ This is the official implementation of the RadarFormer paper, based on the [RODN
 Please do cite our work if this repository helps your research.
 
 ```
-@misc{dalbah2023radarformer,
-      title={RadarFormer: Lightweight and Accurate Real-Time Radar Object Detection Model}, 
-      author={Yahia Dalbah and Jean Lahoud and Hisham Cholakkal},
-      year={2023},
-      eprint={2304.08447},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{10.1007/978-3-031-31435-3_23,
+author="Dalbah, Yahia
+and Lahoud, Jean
+and Cholakkal, Hisham",
+editor="Gade, Rikke
+and Felsberg, Michael
+and K{\"a}m{\"a}r{\"a}inen, Joni-Kristian",
+title="RadarFormer: Lightweight and Accurate Real-Time Radar Object Detection Model",
+booktitle="Image Analysis",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="341--358",
 }
+
+
 ```
 
 This code is heavily reliant on the [RODNet](https://github.com/yizhou-wang/RODNet) repository.
