@@ -16,7 +16,7 @@ class MaxVIT2(nn.Module):
                 n_class, 
                 stacked_num=1, 
                 mnet_cfg=None, 
-                dcn=True,
+                dcn=False,
                 out_head = 1,
                 win_size = 16,
                 patch_size = 8, 
@@ -39,8 +39,10 @@ class MaxVIT2(nn.Module):
                                                 out_head = out_head)
         else:
             self.with_mnet = False
-            self.stacked_hourglass = RadarStackedHourglass(in_channels, n_class, stacked_num=stacked_num,
-                                                           conv_op=self.conv_op)
+            self.stacked_hourglass = RadarStackedHourglass(out_channels_mnet, n_class, stacked_num=stacked_num,
+                                                win_size = win_size, patch_size = patch_size, hidden_size = hidden_size,
+                                                num_layers = num_layers, receptive_field = receptive_field,
+                                                out_head = out_head)
 
     def forward(self, x):
         if self.with_mnet:

@@ -22,7 +22,7 @@ class RODNetHGwIDCN_2d(nn.Module):
                                                            conv_op=self.conv_op)
         else:
             self.with_mnet = False
-            self.stacked_hourglass = RadarStackedHourglass(in_channels, n_class, stacked_num=stacked_num,
+            self.stacked_hourglass = RadarStackedHourglass(out_channels_mnet,win_size, n_class, stacked_num=stacked_num,
                                                            conv_op=self.conv_op)
 
     def forward(self, x):

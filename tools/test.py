@@ -65,46 +65,12 @@ if __name__ == "__main__":
         from rodnet.models import RODNetHGwIDCN as RODNet
     elif model_cfg['type'] == 'HGwIv2_2d':
         from rodnet.models import RODNetHGwIDCN_2d as RODNet
-    elif model_cfg['type'] == 'HGwIv2_deform':
-        from rodnet.models import RODNetHGwIDCN_D as RODNet
-    elif model_cfg['type'] == 'HGwIv2_skipedit':
-        from rodnet.models import RODNetHGwIDCN_SKIP as RODNet
-    elif model_cfg['type'] == 'unetr_v0':
-        from rodnet.models import unetr_v0 as RODNet
-    elif model_cfg['type'] == 'unetr_v1':
-        from rodnet.models import unetr_v1 as RODNet
-    elif model_cfg['type'] == 'unetr_res':
-        from rodnet.models import unetr_res as RODNet
-    elif model_cfg['type'] == 'unetr_res_decomp':
-        from rodnet.models import UNETR_res_decomp as RODNet
-    elif model_cfg['type'] == 'unetr_hilo':
-        from rodnet.models import unetr_HiLo as RODNet
     elif model_cfg['type'] == 'unetr_2d':
         from rodnet.models import UNETR_2d as RODNet
-    elif model_cfg['type'] == 'unetr_2d_nores':
-        from rodnet.models import UNETR_2d_no_res as RODNet
-    elif model_cfg['type'] == 'unetr_2d_res':
-        from rodnet.models import UNETR_2d_res as RODNet
-    elif model_cfg['type'] == 'unetr_2d_res_nups':
-        from rodnet.models import UNETR_2d_res_nups as RODNet
-    elif model_cfg['type'] == 'unetr_2d_res_interpolate':
-        from rodnet.models import UNETR_2d_res_interpolate as RODNet
     elif model_cfg['type'] == 'unetr_2d_res_final':
         from rodnet.models import UNETR_2d_res_final as RODNet
-    elif model_cfg['type'] == 'unetr_2d_res_deform':
-        from rodnet.models import UNETR_2d_res_deform as RODNet
-    elif model_cfg['type'] == 'unetr_hourglass':
-        from rodnet.models import UNETR_hourglass as RODNet
-    elif model_cfg['type'] == 'unetr_2d_interpolate':
-        from rodnet.models import UNETR_2d_no_res_interpolate as RODNet
-    elif model_cfg['type'] == 'unetr_2d_nups':
-        from rodnet.models import UNETR_2d_no_res_nups as RODNet
-    elif model_cfg['type'] == 'hrformer':
-        from rodnet.models import HRFormer as RODNet
     elif model_cfg['type'] == 'hrformer2d':
         from rodnet.models import HRFormer2d as RODNet
-    elif model_cfg['type'] == 'maxvit1':
-        from rodnet.models import MaxVIT1 as RODNet
     elif model_cfg['type'] == 'maxvit2':
         from rodnet.models import MaxVIT2 as RODNet
     elif model_cfg['type'] == 'Axial':
